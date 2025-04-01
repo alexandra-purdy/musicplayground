@@ -3,7 +3,7 @@ window.addEventListener("DOMContentLoaded", function () {
   
     // Check screen width and set popover content with line breaks
     if (window.innerWidth <= 500) {
-      popover.innerHTML = "welcome! click me to begin";
+      popover.innerHTML = "welcome! click me to begin. use WASD keys to move, arrow keys to pan, and the space bar to jump. also... turn up your volume!";
     } else {
       popover.innerHTML = "welcome! click me to begin";
     }
