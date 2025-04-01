@@ -7,7 +7,7 @@ window.addEventListener("DOMContentLoaded", function () {
     } else {
       popover.innerHTML = "welcome! click me to begin. use WASD keys to move, arrow keys to pan, and the space bar to jump. also... turn up your volume!";
     }
-  
+  //push test
     popover.showPopover();
   
     // Hide the popover when clicked
