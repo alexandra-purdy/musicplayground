@@ -33,6 +33,7 @@ html {
       font-size: 1rem; /* Smaller text */
       padding: 20px; /* Less padding */
       top: 10%; /* Move it higher on smaller screens */
+      color: white;
     }
   }
   
@@ -51,6 +52,7 @@ html {
   
   [popover]::backdrop {
     background-color: rgb(0 0 0 / 0%);
+    color: white;
     transition:
       display 0.7s allow-discrete,
       overlay 0.7s allow-discrete,
@@ -84,6 +86,10 @@ html {
     border-radius: 5px;
     cursor: pointer;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
   }
   
   #restartButton:hover {
