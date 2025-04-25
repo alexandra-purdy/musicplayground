@@ -15,4 +15,12 @@ window.addEventListener("DOMContentLoaded", function () {
       this.hidePopover();
     });
   });
+
+  document.addEventListener('DOMContentLoaded', function () {
+    const restartButton = document.getElementById('restartButton');
+    restartButton.addEventListener('click', function () {
+      location.reload();
+    });
+  });
+  
   
