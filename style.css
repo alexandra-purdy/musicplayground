@@ -16,6 +16,7 @@ html {
     padding: 20px;
     text-align: center;
     background-color: #83dd80; /* color */
+    color: white;
     border: none; /* Removes any default border */
     border-radius: 20px; /* Adjust for a rounded rectangle shape */
     width: 50vw; /* Default width for desktop */
