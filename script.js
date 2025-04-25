@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
     this.hidePopover();
   });
 
-  // RESTART BUTTON LOGIC
+  // restart button logid
   const restartButton = document.getElementById("restartButton");
   restartButton.addEventListener("click", function () {
     location.reload();
