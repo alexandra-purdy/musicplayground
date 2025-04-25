@@ -16,11 +16,12 @@ window.addEventListener("DOMContentLoaded", function () {
     });
   });
 
-  document.addEventListener('DOMContentLoaded', function () {
-    const restartButton = document.getElementById('restartButton');
-    restartButton.addEventListener('click', function () {
-      location.reload();
-    });
+// button  
+document.addEventListener('DOMContentLoaded', function () {
+  const restartButton = document.getElementById('restartButton');
+  restartButton.addEventListener('click', function () {
+    location.reload();
   });
+});
   
   
